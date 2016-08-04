@@ -13,6 +13,11 @@
 		45E0A27C1D53966400F9BAFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45E0A27B1D53966400F9BAFA /* Assets.xcassets */; };
 		45E0A27F1D53966400F9BAFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45E0A27D1D53966400F9BAFA /* LaunchScreen.storyboard */; };
 		45E0A28A1D53966400F9BAFA /* Hackrank_SubmissionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E0A2891D53966400F9BAFA /* Hackrank_SubmissionsTests.swift */; };
+		45E0A2991D53A0AF00F9BAFA /* output03.txt in Resources */ = {isa = PBXBuildFile; fileRef = 45E0A2971D53A0AF00F9BAFA /* output03.txt */; };
+		45E0A29A1D53A0AF00F9BAFA /* input03.txt in Resources */ = {isa = PBXBuildFile; fileRef = 45E0A2981D53A0AF00F9BAFA /* input03.txt */; };
+		45E0A29D1D53A16B00F9BAFA /* output00.txt in Resources */ = {isa = PBXBuildFile; fileRef = 45E0A29B1D53A16B00F9BAFA /* output00.txt */; };
+		45E0A29E1D53A16B00F9BAFA /* input00.txt in Resources */ = {isa = PBXBuildFile; fileRef = 45E0A29C1D53A16B00F9BAFA /* input00.txt */; };
+		45E0A2A01D53A23A00F9BAFA /* Contacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E0A29F1D53A23A00F9BAFA /* Contacts.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,14 @@
 		45E0A2851D53966400F9BAFA /* Hackrank-SubmissionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hackrank-SubmissionsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45E0A2891D53966400F9BAFA /* Hackrank_SubmissionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hackrank_SubmissionsTests.swift; sourceTree = "<group>"; };
 		45E0A28B1D53966400F9BAFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45E0A2951D539B9500F9BAFA /* Contacts.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Contacts.playground; sourceTree = "<group>"; };
+		45E0A2971D53A0AF00F9BAFA /* output03.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = output03.txt; sourceTree = "<group>"; };
+		45E0A2981D53A0AF00F9BAFA /* input03.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input03.txt; sourceTree = "<group>"; };
+		45E0A29B1D53A16B00F9BAFA /* output00.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = output00.txt; sourceTree = "<group>"; };
+		45E0A29C1D53A16B00F9BAFA /* input00.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input00.txt; sourceTree = "<group>"; };
+		45E0A29F1D53A23A00F9BAFA /* Contacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contacts.m; sourceTree = "<group>"; };
+		45E0A2A31D53A3FA00F9BAFA /* Hackrank-Submissions-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hackrank-Submissions-Bridging-Header.h"; sourceTree = "<group>"; };
+		45E0A2A41D53A48400F9BAFA /* Contacts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Contacts.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +90,14 @@
 		45E0A2731D53966400F9BAFA /* Hackrank-Submissions */ = {
 			isa = PBXGroup;
 			children = (
+				45E0A2941D539A0600F9BAFA /* Contacts */,
 				45E0A2741D53966400F9BAFA /* AppDelegate.swift */,
 				45E0A2761D53966400F9BAFA /* ViewController.swift */,
 				45E0A2781D53966400F9BAFA /* Main.storyboard */,
 				45E0A27B1D53966400F9BAFA /* Assets.xcassets */,
 				45E0A27D1D53966400F9BAFA /* LaunchScreen.storyboard */,
 				45E0A2801D53966400F9BAFA /* Info.plist */,
+				45E0A2A31D53A3FA00F9BAFA /* Hackrank-Submissions-Bridging-Header.h */,
 			);
 			path = "Hackrank-Submissions";
 			sourceTree = "<group>";
@@ -94,6 +109,28 @@
 				45E0A28B1D53966400F9BAFA /* Info.plist */,
 			);
 			path = "Hackrank-SubmissionsTests";
+			sourceTree = "<group>";
+		};
+		45E0A2941D539A0600F9BAFA /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				45E0A2961D53A09700F9BAFA /* Samples */,
+				45E0A2951D539B9500F9BAFA /* Contacts.playground */,
+				45E0A2A41D53A48400F9BAFA /* Contacts.h */,
+				45E0A29F1D53A23A00F9BAFA /* Contacts.m */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		45E0A2961D53A09700F9BAFA /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				45E0A29B1D53A16B00F9BAFA /* output00.txt */,
+				45E0A29C1D53A16B00F9BAFA /* input00.txt */,
+				45E0A2971D53A0AF00F9BAFA /* output03.txt */,
+				45E0A2981D53A0AF00F9BAFA /* input03.txt */,
+			);
+			path = Samples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,8 +215,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				45E0A27F1D53966400F9BAFA /* LaunchScreen.storyboard in Resources */,
+				45E0A29E1D53A16B00F9BAFA /* input00.txt in Resources */,
 				45E0A27C1D53966400F9BAFA /* Assets.xcassets in Resources */,
+				45E0A2991D53A0AF00F9BAFA /* output03.txt in Resources */,
 				45E0A27A1D53966400F9BAFA /* Main.storyboard in Resources */,
+				45E0A29A1D53A0AF00F9BAFA /* input03.txt in Resources */,
+				45E0A29D1D53A16B00F9BAFA /* output00.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +240,7 @@
 			files = (
 				45E0A2771D53966400F9BAFA /* ViewController.swift in Sources */,
 				45E0A2751D53966400F9BAFA /* AppDelegate.swift in Sources */,
+				45E0A2A01D53A23A00F9BAFA /* Contacts.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +323,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Hackrank-Submissions/Hackrank-Submissions-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -320,6 +363,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Hackrank-Submissions/Hackrank-Submissions-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -329,10 +373,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Hackrank-Submissions/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Hackrank-Submissions";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -340,6 +386,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Hackrank-Submissions/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Hackrank-Submissions";
@@ -390,6 +437,7 @@
 				45E0A2901D53966400F9BAFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45E0A2911D53966400F9BAFA /* Build configuration list for PBXNativeTarget "Hackrank-SubmissionsTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +446,7 @@
 				45E0A2931D53966400F9BAFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
