@@ -52,6 +52,7 @@
 		45E0A2A61D53A91C00F9BAFA /* SherlockAndArray.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SherlockAndArray.playground; sourceTree = "<group>"; };
 		45E0A2A91D53B2C900F9BAFA /* Staircase.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Staircase.playground; sourceTree = "<group>"; };
 		45E0A2AB1D53B4F200F9BAFA /* SparseArrays.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SparseArrays.playground; sourceTree = "<group>"; };
+		45E0A2AD1D53B61800F9BAFA /* StringConstruction.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = StringConstruction.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +94,7 @@
 		45E0A2731D53966400F9BAFA /* Hackrank-Submissions */ = {
 			isa = PBXGroup;
 			children = (
+				45E0A2AC1D53B60500F9BAFA /* StringConstruction */,
 				45E0A2AA1D53B4DB00F9BAFA /* SparseArrays */,
 				45E0A2A71D53B27C00F9BAFA /* Staircase */,
 				45E0A2A51D53A90500F9BAFA /* SherlockAndArray */,
@@ -161,6 +163,14 @@
 				45E0A2AB1D53B4F200F9BAFA /* SparseArrays.playground */,
 			);
 			path = SparseArrays;
+			sourceTree = "<group>";
+		};
+		45E0A2AC1D53B60500F9BAFA /* StringConstruction */ = {
+			isa = PBXGroup;
+			children = (
+				45E0A2AD1D53B61800F9BAFA /* StringConstruction.playground */,
+			);
+			path = StringConstruction;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
