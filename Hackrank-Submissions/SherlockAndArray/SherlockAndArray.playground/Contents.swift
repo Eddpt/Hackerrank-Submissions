@@ -41,6 +41,8 @@
 
  For the first test case, no such index exists.
  For the second test case, `A[1] + A[2] = A[4]`, therefore index `3` satisfies the given conditions.
+ 
+ **Source:** [Hackerrank - Sherlock And Array](https://www.hackerrank.com/challenges/sherlock-and-array)
  */
 
 import Foundation
