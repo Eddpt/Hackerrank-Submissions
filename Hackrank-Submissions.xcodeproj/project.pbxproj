@@ -50,6 +50,7 @@
 		45E0A2A31D53A3FA00F9BAFA /* Hackrank-Submissions-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hackrank-Submissions-Bridging-Header.h"; sourceTree = "<group>"; };
 		45E0A2A41D53A48400F9BAFA /* Contacts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Contacts.h; sourceTree = "<group>"; };
 		45E0A2A61D53A91C00F9BAFA /* SherlockAndArray.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SherlockAndArray.playground; sourceTree = "<group>"; };
+		45E0A2A91D53B2C900F9BAFA /* Staircase.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Staircase.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +92,7 @@
 		45E0A2731D53966400F9BAFA /* Hackrank-Submissions */ = {
 			isa = PBXGroup;
 			children = (
+				45E0A2A71D53B27C00F9BAFA /* Staircase */,
 				45E0A2A51D53A90500F9BAFA /* SherlockAndArray */,
 				45E0A2941D539A0600F9BAFA /* Contacts */,
 				45E0A2741D53966400F9BAFA /* AppDelegate.swift */,
@@ -141,6 +143,14 @@
 				45E0A2A61D53A91C00F9BAFA /* SherlockAndArray.playground */,
 			);
 			path = SherlockAndArray;
+			sourceTree = "<group>";
+		};
+		45E0A2A71D53B27C00F9BAFA /* Staircase */ = {
+			isa = PBXGroup;
+			children = (
+				45E0A2A91D53B2C900F9BAFA /* Staircase.playground */,
+			);
+			path = Staircase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
