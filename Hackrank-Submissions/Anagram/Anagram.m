@@ -2,7 +2,7 @@
 //  Anagram.m
 //  Hackrank-Submissions
 //
-//  Created by Edgar Antunes on 05/08/2016.
+//  Created by Eddpt on 05/08/2016.
 //  Copyright © 2016 test. All rights reserved.
 //
 

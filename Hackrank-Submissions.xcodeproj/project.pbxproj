@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		45A7896C1D5528C50090A2E9 /* Anagram.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A7896B1D5528C50090A2E9 /* Anagram.m */; };
+		45A789721D553FA40090A2E9 /* MinimumDistances.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A789711D553FA40090A2E9 /* MinimumDistances.m */; };
 		45E0A2751D53966400F9BAFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E0A2741D53966400F9BAFA /* AppDelegate.swift */; };
 		45E0A2771D53966400F9BAFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E0A2761D53966400F9BAFA /* ViewController.swift */; };
 		45E0A27A1D53966400F9BAFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45E0A2781D53966400F9BAFA /* Main.storyboard */; };
@@ -38,6 +39,9 @@
 		45A7896B1D5528C50090A2E9 /* Anagram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Anagram.m; sourceTree = "<group>"; };
 		45A7896D1D5528CB0090A2E9 /* Anagram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Anagram.h; sourceTree = "<group>"; };
 		45A7896E1D552BA70090A2E9 /* Anagram.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Anagram.playground; sourceTree = "<group>"; };
+		45A789701D553FA40090A2E9 /* MinimumDistances.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinimumDistances.h; sourceTree = "<group>"; };
+		45A789711D553FA40090A2E9 /* MinimumDistances.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MinimumDistances.m; sourceTree = "<group>"; };
+		45A789741D5540D10090A2E9 /* MinimumDistances.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MinimumDistances.playground; sourceTree = "<group>"; };
 		45E0A2711D53966400F9BAFA /* Hackrank-Submissions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hackrank-Submissions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45E0A2741D53966400F9BAFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45E0A2761D53966400F9BAFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +118,16 @@
 			path = Anagram;
 			sourceTree = "<group>";
 		};
+		45A7896F1D553F7F0090A2E9 /* MinimumDistances */ = {
+			isa = PBXGroup;
+			children = (
+				45A789741D5540D10090A2E9 /* MinimumDistances.playground */,
+				45A789701D553FA40090A2E9 /* MinimumDistances.h */,
+				45A789711D553FA40090A2E9 /* MinimumDistances.m */,
+			);
+			path = MinimumDistances;
+			sourceTree = "<group>";
+		};
 		45E0A2681D53966400F9BAFA = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +149,7 @@
 		45E0A2731D53966400F9BAFA /* Hackrank-Submissions */ = {
 			isa = PBXGroup;
 			children = (
+				45A7896F1D553F7F0090A2E9 /* MinimumDistances */,
 				45A7896A1D5528B50090A2E9 /* Anagram */,
 				45A789681D5515530090A2E9 /* CamelCase */,
 				454702CE1D54E5130064C5C0 /* CompareTheTriplets */,
@@ -325,6 +340,7 @@
 			files = (
 				45E0A2771D53966400F9BAFA /* ViewController.swift in Sources */,
 				45E0A2751D53966400F9BAFA /* AppDelegate.swift in Sources */,
+				45A789721D553FA40090A2E9 /* MinimumDistances.m in Sources */,
 				45E0A2A01D53A23A00F9BAFA /* Contacts.m in Sources */,
 				45A7896C1D5528C50090A2E9 /* Anagram.m in Sources */,
 			);

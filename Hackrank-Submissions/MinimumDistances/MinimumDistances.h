@@ -1,5 +1,5 @@
 //
-//  Anagram.h
+//  MinimumDistances.h
 //  Hackrank-Submissions
 //
 //  Created by Eddpt on 05/08/2016.
@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Anagram : NSObject
+@interface MinimumDistances : NSObject
 
-+ (void)anagram;
++ (void)minimumDistances;
 
 @end
