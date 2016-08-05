@@ -31,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		454702CD1D54D00B0064C5C0 /* Ransom.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Ransom.playground; sourceTree = "<group>"; };
 		45E0A2711D53966400F9BAFA /* Hackrank-Submissions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hackrank-Submissions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45E0A2741D53966400F9BAFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45E0A2761D53966400F9BAFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +74,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		454702CC1D54CFF00064C5C0 /* Ransom */ = {
+			isa = PBXGroup;
+			children = (
+				454702CD1D54D00B0064C5C0 /* Ransom.playground */,
+			);
+			path = Ransom;
+			sourceTree = "<group>";
+		};
 		45E0A2681D53966400F9BAFA = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +103,7 @@
 		45E0A2731D53966400F9BAFA /* Hackrank-Submissions */ = {
 			isa = PBXGroup;
 			children = (
+				454702CC1D54CFF00064C5C0 /* Ransom */,
 				45E0A2AC1D53B60500F9BAFA /* StringConstruction */,
 				45E0A2AA1D53B4DB00F9BAFA /* SparseArrays */,
 				45E0A2A71D53B27C00F9BAFA /* Staircase */,
