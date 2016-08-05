@@ -10,5 +10,6 @@
 #define Hackrank_Submissions_Bridging_Header_h
 
 #import "Contacts.h"
+#import "Anagram.h"
 
 #endif /* Hackrank_Submissions_Bridging_Header_h */
