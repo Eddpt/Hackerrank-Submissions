@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		456A09D81D55EDE600B8400E /* Operators.m in Sources */ = {isa = PBXBuildFile; fileRef = 456A09D71D55EDE600B8400E /* Operators.m */; };
+		456A09DC1D55F46C00B8400E /* AllAnagrams.m in Sources */ = {isa = PBXBuildFile; fileRef = 456A09DB1D55F46C00B8400E /* AllAnagrams.m */; };
+		456A09DE1D55FC8200B8400E /* AllAnagrams.md in Sources */ = {isa = PBXBuildFile; fileRef = 456A09DD1D55FC8200B8400E /* AllAnagrams.md */; };
 		45A7896C1D5528C50090A2E9 /* Anagram.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A7896B1D5528C50090A2E9 /* Anagram.m */; };
 		45A789721D553FA40090A2E9 /* MinimumDistances.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A789711D553FA40090A2E9 /* MinimumDistances.m */; };
 		45E0A2751D53966400F9BAFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E0A2741D53966400F9BAFA /* AppDelegate.swift */; };
@@ -39,6 +41,9 @@
 		456A09D61D55EDE600B8400E /* Operators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Operators.h; sourceTree = "<group>"; };
 		456A09D71D55EDE600B8400E /* Operators.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Operators.m; sourceTree = "<group>"; };
 		456A09D91D55EE7300B8400E /* Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Operators.playground; sourceTree = "<group>"; };
+		456A09DA1D55F46C00B8400E /* AllAnagrams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllAnagrams.h; sourceTree = "<group>"; };
+		456A09DB1D55F46C00B8400E /* AllAnagrams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllAnagrams.m; sourceTree = "<group>"; };
+		456A09DD1D55FC8200B8400E /* AllAnagrams.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = AllAnagrams.md; sourceTree = "<group>"; };
 		45A789691D5515600090A2E9 /* CamelCase.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CamelCase.playground; sourceTree = "<group>"; };
 		45A7896B1D5528C50090A2E9 /* Anagram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Anagram.m; sourceTree = "<group>"; };
 		45A7896D1D5528CB0090A2E9 /* Anagram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Anagram.h; sourceTree = "<group>"; };
@@ -104,6 +109,16 @@
 			path = CompareTheTriplets;
 			sourceTree = "<group>";
 		};
+		456A09D41D55DB8F00B8400E /* AllAnagrams */ = {
+			isa = PBXGroup;
+			children = (
+				456A09DA1D55F46C00B8400E /* AllAnagrams.h */,
+				456A09DB1D55F46C00B8400E /* AllAnagrams.m */,
+				456A09DD1D55FC8200B8400E /* AllAnagrams.md */,
+			);
+			path = AllAnagrams;
+			sourceTree = "<group>";
+		};
 		456A09D51D55EDD100B8400E /* Operators */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				456A09D51D55EDD100B8400E /* Operators */,
+				456A09D41D55DB8F00B8400E /* AllAnagrams */,
 				45A7896F1D553F7F0090A2E9 /* MinimumDistances */,
 				45A7896A1D5528B50090A2E9 /* Anagram */,
 				45A789681D5515530090A2E9 /* CamelCase */,
@@ -353,8 +369,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				456A09DE1D55FC8200B8400E /* AllAnagrams.md in Sources */,
 				45E0A2771D53966400F9BAFA /* ViewController.swift in Sources */,
 				45E0A2751D53966400F9BAFA /* AppDelegate.swift in Sources */,
+				456A09DC1D55F46C00B8400E /* AllAnagrams.m in Sources */,
 				45A789721D553FA40090A2E9 /* MinimumDistances.m in Sources */,
 				456A09D81D55EDE600B8400E /* Operators.m in Sources */,
 				45E0A2A01D53A23A00F9BAFA /* Contacts.m in Sources */,

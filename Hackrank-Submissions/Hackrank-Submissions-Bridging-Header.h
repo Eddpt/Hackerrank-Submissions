@@ -13,5 +13,6 @@
 #import "Anagram.h"
 #import "MinimumDistances.h"
 #import "Operators.h"
+#import "AllAnagrams.h"
 
 #endif /* Hackrank_Submissions_Bridging_Header_h */

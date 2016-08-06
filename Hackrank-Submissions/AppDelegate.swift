@@ -23,6 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 //        Operators.operators();
 
+//        AllAnagrams.allAnagrams();
+
         return true
     }
 }
