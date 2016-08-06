@@ -16,10 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
 
 //        Contacts.contacts();
-//
+
 //        Anagram.anagram();
 
 //        MinimumDistances.minimumDistances();
+
+//        Operators.operators();
 
         return true
     }

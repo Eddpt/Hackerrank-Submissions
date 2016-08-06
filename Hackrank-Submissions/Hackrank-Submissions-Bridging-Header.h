@@ -12,5 +12,6 @@
 #import "Contacts.h"
 #import "Anagram.h"
 #import "MinimumDistances.h"
+#import "Operators.h"
 
 #endif /* Hackrank_Submissions_Bridging_Header_h */
