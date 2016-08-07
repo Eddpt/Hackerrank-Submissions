@@ -89,20 +89,20 @@ for word in sampleArray {
     let middleIndex = word.startIndex.advancedBy(wordLength / 2)
     let wordFirstPart = word.substringWithRange(word.startIndex..<middleIndex)
     let wordLastPart = word.substringWithRange(middleIndex..<word.endIndex)
-    var charactersDictionary: [Character: Int] = [:]
+    var charactersArray = Array(count: 26, repeatedValue: 0)
 
-    for character in wordLastPart.characters {
-        charactersDictionary[character] = (charactersDictionary[character] ?? 0) + 1
+    for character in wordFirstPart.utf8 {
+        charactersArray[Int(character) - 97] += 1
     }
 
-    for character in wordFirstPart.characters {
-        charactersDictionary[character] = (charactersDictionary[character] ?? 0) - 1
+    for character in wordLastPart.utf8 {
+        charactersArray[Int(character) - 97] -= 1
     }
 
     var numberOfChangesNeeded = 0
 
-    for character in charactersDictionary.keys {
-        numberOfChangesNeeded += abs(charactersDictionary[character]!)
+    for character in charactersArray {
+        numberOfChangesNeeded += abs(character)
     }
 
     numberOfChangesNeeded /= 2
