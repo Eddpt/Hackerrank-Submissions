@@ -25,6 +25,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 //        AllAnagrams.allAnagrams();
 
+        CookieParty.cookieParty();
+        
         return true
     }
 }

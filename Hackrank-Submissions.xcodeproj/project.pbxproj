@@ -10,6 +10,7 @@
 		456A09D81D55EDE600B8400E /* Operators.m in Sources */ = {isa = PBXBuildFile; fileRef = 456A09D71D55EDE600B8400E /* Operators.m */; };
 		456A09DC1D55F46C00B8400E /* AllAnagrams.m in Sources */ = {isa = PBXBuildFile; fileRef = 456A09DB1D55F46C00B8400E /* AllAnagrams.m */; };
 		456A09DE1D55FC8200B8400E /* AllAnagrams.md in Sources */ = {isa = PBXBuildFile; fileRef = 456A09DD1D55FC8200B8400E /* AllAnagrams.md */; };
+		4595AD111D58958B00225084 /* CookieParty.m in Sources */ = {isa = PBXBuildFile; fileRef = 4595AD101D58958B00225084 /* CookieParty.m */; };
 		45A7896C1D5528C50090A2E9 /* Anagram.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A7896B1D5528C50090A2E9 /* Anagram.m */; };
 		45A789721D553FA40090A2E9 /* MinimumDistances.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A789711D553FA40090A2E9 /* MinimumDistances.m */; };
 		45E0A2751D53966400F9BAFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E0A2741D53966400F9BAFA /* AppDelegate.swift */; };
@@ -44,6 +45,9 @@
 		456A09DA1D55F46C00B8400E /* AllAnagrams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllAnagrams.h; sourceTree = "<group>"; };
 		456A09DB1D55F46C00B8400E /* AllAnagrams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllAnagrams.m; sourceTree = "<group>"; };
 		456A09DD1D55FC8200B8400E /* AllAnagrams.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = AllAnagrams.md; sourceTree = "<group>"; };
+		4595AD0F1D58958B00225084 /* CookieParty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CookieParty.h; sourceTree = "<group>"; };
+		4595AD101D58958B00225084 /* CookieParty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CookieParty.m; sourceTree = "<group>"; };
+		4595AD121D58962D00225084 /* CookieParty.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CookieParty.playground; sourceTree = "<group>"; };
 		45A789691D5515600090A2E9 /* CamelCase.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CamelCase.playground; sourceTree = "<group>"; };
 		45A7896B1D5528C50090A2E9 /* Anagram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Anagram.m; sourceTree = "<group>"; };
 		45A7896D1D5528CB0090A2E9 /* Anagram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Anagram.h; sourceTree = "<group>"; };
@@ -129,6 +133,16 @@
 			path = Operators;
 			sourceTree = "<group>";
 		};
+		4595AD0E1D58956F00225084 /* CookieParty */ = {
+			isa = PBXGroup;
+			children = (
+				4595AD0F1D58958B00225084 /* CookieParty.h */,
+				4595AD101D58958B00225084 /* CookieParty.m */,
+				4595AD121D58962D00225084 /* CookieParty.playground */,
+			);
+			path = CookieParty;
+			sourceTree = "<group>";
+		};
 		45A789681D5515530090A2E9 /* CamelCase */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +192,7 @@
 		45E0A2731D53966400F9BAFA /* Hackrank-Submissions */ = {
 			isa = PBXGroup;
 			children = (
+				4595AD0E1D58956F00225084 /* CookieParty */,
 				456A09D51D55EDD100B8400E /* Operators */,
 				456A09D41D55DB8F00B8400E /* AllAnagrams */,
 				45A7896F1D553F7F0090A2E9 /* MinimumDistances */,
@@ -376,6 +391,7 @@
 				45A789721D553FA40090A2E9 /* MinimumDistances.m in Sources */,
 				456A09D81D55EDE600B8400E /* Operators.m in Sources */,
 				45E0A2A01D53A23A00F9BAFA /* Contacts.m in Sources */,
+				4595AD111D58958B00225084 /* CookieParty.m in Sources */,
 				45A7896C1D5528C50090A2E9 /* Anagram.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
