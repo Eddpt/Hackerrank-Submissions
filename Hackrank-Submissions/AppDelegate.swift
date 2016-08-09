@@ -25,8 +25,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 //        AllAnagrams.allAnagrams();
 
-        CookieParty.cookieParty();
-        
+//        CookieParty.cookieParty();
+
+        ParenthesisChecker.parenthesisChecker();
+
         return true
     }
 }

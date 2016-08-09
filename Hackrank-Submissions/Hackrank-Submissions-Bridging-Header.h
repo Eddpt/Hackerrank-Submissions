@@ -15,5 +15,6 @@
 #import "Operators.h"
 #import "AllAnagrams.h"
 #import "CookieParty.h"
+#import "ParenthesisChecker.h"
 
 #endif /* Hackrank_Submissions_Bridging_Header_h */
