@@ -27,7 +27,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 //        CookieParty.cookieParty();
 
-        ParenthesisChecker.parenthesisChecker();
+
+//        ParenthesisChecker.parenthesisChecker();
+
+        LetsReview.letsReview();
 
         return true
     }
