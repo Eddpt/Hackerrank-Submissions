@@ -30,7 +30,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 //        ParenthesisChecker.parenthesisChecker();
 
-        LetsReview.letsReview();
+//        LetsReview.letsReview();
+
+        BinaryNumbers.binaryNumbers();
 
         return true
     }

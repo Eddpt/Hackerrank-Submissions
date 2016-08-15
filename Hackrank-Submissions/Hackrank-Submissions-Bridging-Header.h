@@ -17,5 +17,6 @@
 #import "CookieParty.h"
 #import "ParenthesisChecker.h"
 #import "LetsReview.h"
+#import "BinaryNumbers.h"
 
 #endif /* Hackrank_Submissions_Bridging_Header_h */
